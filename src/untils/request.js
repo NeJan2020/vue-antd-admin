@@ -1,6 +1,7 @@
 import axios from "axios";
 import { message } from "ant-design-vue";
-const baseURL = "http://mockjs/api";
+//const baseURL = "localhost:8080";
+ const baseURL = "http://47.111.73.242/api/admin";
 
 const instance = axios.create({
   baseURL: baseURL,
